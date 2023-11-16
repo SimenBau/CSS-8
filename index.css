@@ -1,0 +1,196 @@
+.arrow {
+    display: flex;
+    flex-direction: row;
+}
+.arrow2 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+.arrow2 :first-child{
+    padding-right: 80px;
+}
+* {
+    padding: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+input {
+    padding-right: 130px;
+    padding-left: 30px;
+    display: flex;
+    border: solid 2px;
+}
+.check {
+    display: flex;
+    flex-direction: row;
+}
+.check :hover {
+    cursor: pointer;
+}
+.cont {
+    padding: 18px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(165, 130, 42);
+    border-radius: 15%;    
+    
+}
+.cont1 {
+    display: flex;
+    justify-content:right;
+    align-items: flex-end;
+}
+.cont1 :hover {
+    cursor: pointer;
+}
+.top {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container2 img {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10%;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding-right: 25px;
+}
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.planets {
+    display: flex;
+    flex-direction: row;
+}
+.liten {
+    font-size: 12px;
+    color: rgb(76, 75, 75);
+}
+.T1 {
+    border: 2px lightgray solid;border-radius: 3px;
+    padding-left: 30px;padding-right: 130px;
+    padding-top: 3px;padding-bottom: 3px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Envelope_alt_font_awesome.svg/1200px-Envelope_alt_font_awesome.svg.png);
+    background-size: 18px;background-repeat: no-repeat;
+    background-position: 5px;
+}
+.search {
+    width: fit-content;
+    padding-left: 30px;
+    padding-top: 3px;padding-bottom: 3px;
+    background-color: white;
+    border: lightgray 2px solid;border-radius: 3px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Globe_font_awesome.svg/512px-Globe_font_awesome.svg.png);
+    background-size: 18px;background-repeat: no-repeat;
+    background-position: 5px;
+    margin-right: 10px;
+}
+.T6 {
+    border: lightgray 2px solid;border-radius: 3px;
+    padding-left: 30px; padding-right: 0px;
+    padding-top: 3px;padding-bottom: 3px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-4rWp8iT3VrcB8vyISAgN_2lwn-fLKWCog&usqp=CAU);
+    background-size: 18px;background-repeat: no-repeat;
+    background-position: 5px;
+}
+.T2 {
+    border: 2px lightgray solid;border-radius: 3px;
+    padding-left: 30px;padding-right: 130px;
+    padding-top: 3px;padding-bottom: 3px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Phone_font_awesome.svg/240px-Phone_font_awesome.svg.png);
+    background-size: 18px;background-repeat: no-repeat;
+    background-position: 5px;
+}
+.T3 {
+    border: solid lightgray 2px;border-radius: 3px;
+    padding-left: 30px;padding-right: 130px;
+    padding-top: 3px;padding-bottom: 3px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/1200px-User_font_awesome.svg.png);
+    background-size: 18px;background-repeat: no-repeat;
+    background-position: 5px;
+}
+.T4 {
+    border: 2px lightgray solid;border-radius: 3px;
+    padding-left: 30px;padding-right: 130px;
+    padding-top: 3px;padding-bottom: 3px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Home_font_awesome.svg/1024px-Home_font_awesome.svg.png);
+    background-size: 18px;background-repeat: no-repeat;
+    background-position: 5px;
+}
+.T5 {
+    border: lightgray 2px solid;border-radius: 3px;
+    padding-left: 30px;padding-right: 13S0px;
+    padding-top: 3px;padding-bottom: 3px;
+    background-image: url(https://icons.iconarchive.com/icons/fa-team/fontawesome/512/FontAwesome-City-icon.png);
+    background-size: 18px;background-repeat: no-repeat;
+    background-position: 5px;
+}
+.container3 {
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.nei {
+    display: flex;
+    flex-direction: row;
+}
+.nei :last-child {
+    font-size: small;
+    display: flex;
+    align-items: flex-end;
+    color:rgb(76, 75, 75)
+}
+.nei1 {
+    color: orange;
+}
+.bottom {
+    padding-right: 20px;
+}
+.shipping {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px double rgb(76, 75, 75);
+}
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px double rgb(76, 75, 75);
+}
+.button1 {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    border: 1px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.moonbut {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 10%;
+}
+.sunbut {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 10%;
+}
